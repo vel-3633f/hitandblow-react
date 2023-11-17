@@ -50,13 +50,12 @@ function HitAndBlow() {
     console.log(randoms);
   };
 
-  window.onload = function () {
-    setModalOpen(true);
-  };
+
 
   useEffect(() => {
     const newAnswer = makeAnswer();
     setRandoms(newAnswer);
+    setModalOpen(true);
   }, []);
 
   for (let obj of ans) {
