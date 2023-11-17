@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 const Modal = ({ handleCloseClick, condition, setCondition, resetGame }) => {
   const startGame = () => {

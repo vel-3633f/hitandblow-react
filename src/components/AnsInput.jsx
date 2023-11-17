@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import AnsBtn from "./AnsBtn";
 import { countHB } from "./countHB";
 
