@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AnsBtn from "./ansBtn";
+import AnsBtn from "./AnsBtn";
 import { countHB } from "./countHB";
 
 const AnsInput = ({
